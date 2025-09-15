@@ -35,3 +35,7 @@
     /* Color for mines */
     background-color: #ff3333;
 }
+
+#gameBoard {
+    height: 852px;
+}
