@@ -1,9 +1,16 @@
+.blank_page{
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+}
+
 /*Horizontal Cell Format*/
-.page {
+.grid_page {
     height: 100vh;
     display: grid;
     align-items: center;
 }
+
 .row {
     width: auto;
     height: 31vh;
@@ -24,12 +31,9 @@
 	transform: translate(0, 0);
 }
 
+
+
 /*Image Grid Format*/
-.project_page{
-	width: 100%;
-	height: 100%;
-	display:inline-block; 
-}
 .frame_box{
 	margin-top: 1rem;
 	margin-left: 10vw;
@@ -73,9 +77,24 @@
 	display: flex;
 	opacity:0%;
 }
+
 .details{
 	margin: 1.5rem 20vw;
 }
 .details p{
 	text-indent: 50px;
+}
+
+
+/*Image Desc Format*/
+.big_frame img {
+	height: 30rem;
+	width: 20rem;
+}
+.big_frame{
+	height: 30rem;
+	width: 20rem;
+	background-color: #eee;
+	padding: 1.5rem;
+	margin: 5rem;
 }
