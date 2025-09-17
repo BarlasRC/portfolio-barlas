@@ -7,31 +7,52 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-act.css">
+    <link rel="stylesheet" type="text/css" href="style-con.css">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 
-<div class="contact_page">
-    <div class="container">
-        <form action="/action_page.php">
-            <div class="divide_text">
-            <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-</div><div class="divide_text"style="margin-left:5%">
-            <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    </div>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" placeholder="Enter your Email.."><br>
+<div class="blank_page">
+    <div class="contact_page">
+        <div class="card_container">
+            <h3>Contact Me</h3>
+            <p>
+            If have any inquiries or would just like to get in contact,
+            please use the contact form or any of the following social
+            media accounts shown.
+            </p>
+            <p></p><p></p>
+           <a href="https://www.linkedin.com/in/ramuel-carl-barlas/"><i class="fa fa-linkedin-square"></i></a>
+           <a href="https://www.facebook.com/ramuelcarl.barlas.3"><i class="fa fa-facebook-square"></i></a>
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramuelcarl.barlas@gmail.com"><i class="fa fa-google"></i></a>
+           <a href="https://x.com/DTales29"><i class="fa fa-twitter"></i></a>
+           <a href="https://github.com/BarlasRC"><i class="fa fa-github"></i></a>
+           <p></p><p></p><p></p><p></p>
+        </div>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <div class="contact_container">
+            <form action="/action_page.php">
 
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+                <div class="divide_text">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
 
-    <div class="container">
-     <h3>Contact Me</h3>
+                <div class="divide_text"style="margin-left:5%">
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+
+                <label for="email">Email *</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email.."><br>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:7.5rem"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 </div>
 

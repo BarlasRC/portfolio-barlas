@@ -1,8 +1,9 @@
 .contact_page {
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 70vw;
+    height: 70vh;
     display: flex;
+    padding: 5vh 5vw;
 }
 
 input[type=text], select, textarea, input[type=email] {
@@ -11,11 +12,15 @@ input[type=text], select, textarea, input[type=email] {
   border: 2px solid #555;
   border-radius: 2px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+  margin: 0.5rem 0;
   background-color: #dcdcdc;
-  font-size: 1rem;
+  font-size: 0.75rem;
+  text-align: left;
+}
+textarea {
+  resize: vertical;
+  min-height: 5rem;
+  max-height: 10rem;
 }
 
 input[type=submit] {
@@ -25,27 +30,43 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  float: right;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
-  padding: 1.5rem;
-  width: 40vw;
-  background-color: #dcdcdc;
-  margin: 0 3rem;
-  height: 75vh;
+.card_container {
+    width: 50%;
+    background-color: #dcdcdc;
+    height: 100%;
+    padding: 5vh 5vw;
+    place-content: center;
+}
+.card_container p {
+    margin-top: 2rem;
+}
+.card_container a {
+    color: black;
+    margin: 0.25rem;
 }
 
-form, label{
+.contact_container {
+  width: 50%;
+  background-color: #dcdcdc;
+  height: 100%;
+  padding: 5vh 5vw;
+  place-content: center;
+}
+
+form, label {
     background-color: transparent;
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
-.divide_text{
+.divide_text {
     width:47.5%;
     float: left;
     background-color: transparent;
