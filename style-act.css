@@ -1,0 +1,53 @@
+.contact_page {
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+input[type=text], select, textarea, input[type=email] {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid #555;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #dcdcdc;
+  font-size: 1rem;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 1.5rem;
+  width: 40vw;
+  background-color: #dcdcdc;
+  margin: 0 3rem;
+  height: 75vh;
+}
+
+form, label{
+    background-color: transparent;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.divide_text{
+    width:47.5%;
+    float: left;
+    background-color: transparent;
+    text-align: left;
+}
