@@ -13,9 +13,11 @@ This project is built using:
 
 ## Contact
 <b>Email:</b>
-ramuelcarl.barlas@wvsu.edu.ph
+ramuelcarl.barlas@wvsu.edu.ph<>
+
 <b>Project Link:</b>
 https://github.com/BarlasRC/portfolio-barlas.git
+
 <b>Website Link:</b>
 - -
 
