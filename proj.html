@@ -7,40 +7,84 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="style-con.css">
+	<link rel="stylesheet" type="text/css" href="style-act.css">
 </head>
 <body>
-    <div class="blank_page" id="features">
+    <div class="blank_page">
 		<div class="details">
 			<h1>Projects</h1>
 		</div>
-		<div class="frame_box">
-			<div class="box">
-				<img src="test.png">
-				<p class="caption">test</p>
+		
+		<div class="proj_container">
+			<button type="button" id="ogw_button" onclick="displayOGWorkDiv()">Original Work</button>
+			<button type="button" id="fa_button" onclick="displayFanArtDiv()">Fan Arts</button>
+		</div>
+
+		<hr><br><br>
+
+		<div class="proj_container">
+			<div class="sub_proj_container" id="ogw_con">
+				<div class="img_row">
+
+				<div class="img_column">
+    				<img src="Works/Original Work/Xyn - Ambush.png">
+					<img src="Works/Original Work/WhiteHunter.png">
+					<img src="Works/Original Work/Shino and Bate Vertical Cover.png">
+					<img src="Works/Original Work/Slow Falling Sea.png">
+					<img src="Works/Original Work/Gorgon_Faye.png">
+  				</div>
+
+  				<div class="img_column">
+    				<img src="Works/Original Work/Brighton.png">
+					<img src="Works/Original Work/Witch Hat.png">
+					<img src="Works/Original Work/DevilTooth_Orb.png">
+					<img src="Works/Original Work/SudameReloadedThumbnailVer.png">
+					<img src="Works/Original Work/TempleGate.png">
+  				</div>
+
+  				<div class="img_column">
+    				<img src="Works/Original Work/Vyxn.png">
+					<img src="Works/Original Work/Calming.png">
+					<img src="Works/Original Work/Ignis.png">
+					<img src="Works/Original Work/AccursedEye.png">
+					<img src="Works/Original Work/ReachingOut.png">
+  				</div>
+
+				</div>
 			</div>
-			<div class="box">
-				<img src="test.png">
-				<p class="caption"> test</p>
-			</div>
-			<div class="box">
-				<img src="test.png">
-				<p class="caption"> test</p>
+
+			<div class="sub_proj_container" id="fa_con">
+				<div class="img_row">
+
+				<div class="img_column">
+    				<img src="Works/Fan Art/AKiTo.png">
+					<img src="Works/Fan Art/CapSyrup.png">
+					<img src="Works/Fan Art/sYD.png">
+					<img src="Works/Fan Art/HatsuneMiku-Static.png">
+					<img src="Works/Fan Art/RUI.png">
+  				</div>
+
+  				<div class="img_column">
+    				<img src="Works/Fan Art/Simon Petrikov - Madness in Sadness.png">
+					<img src="Works/Fan Art/PataShroom.png">
+					<img src="Works/Fan Art/BeeBoy.png">
+					<img src="Works/Fan Art/You Are My Special.png">
+					<img src="Works/Fan Art/Rumia - Is That So.png">
+  				</div>
+
+  				<div class="img_column">
+    				<img src="Works/Fan Art/Moonlight_Sonata.png">
+					<img src="Works/Fan Art/Crimson.png">
+					<img src="Works/Fan Art/Cathos.png">
+					<img src="Works/Fan Art/firebot.png">
+					<img src="Works/Fan Art/fennec.png">
+  				</div>
+
+				</div>
 			</div>
 		</div>
-		<div class="frame_box">
-			<div class="box">
-				<img src="test.png">
-				<p class="caption">test</p>
-			</div>
-			<div class="box">
-				<img src="test.png">
-				<p class="caption"> test</p>
-			</div>
-			<div class="box">
-				<img src="test.png">
-				<p class="caption"> test</p>
-			</div>
-		</div>
+
+		<script src="script.js"></script>
 	</div>
 </body>
 </html>
