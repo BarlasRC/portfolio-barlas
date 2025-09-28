@@ -9,7 +9,7 @@
 input[type=text], select, textarea, input[type=email] {
   width: 100%;
   padding: 0.5rem 1rem;
-  border: 2px solid #555;
+  border: 2px solid #444;
   border-radius: 2px;
   box-sizing: border-box;
   margin: 0.5rem 0;
@@ -24,7 +24,7 @@ textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #111;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -34,18 +34,20 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #555;
+  transition: 250ms;
 }
 
 .card_container {
     width: 50%;
-    background-color: #dcdcdc;
+    background-color: #dcdcdc25;
     height: 100%;
     padding: 5vh 5vw;
     place-content: center;
 }
 .card_container p {
     margin-top: 2rem;
+    font-size: 1rem;
 }
 .card_container a {
     color: black;
