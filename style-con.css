@@ -15,19 +15,22 @@
 
 .page_row {
     width: auto;
-    height: 31vh;
+    height: 30vh;
     margin: auto 20vw auto 20vw;
-    padding: 1vh 5vw 1vh 5vw;
+    padding: 0 5vw 0 5vw;
+	align-items: center;
 }
 .page_row h3 {
 	margin: 0 1rem;
 	text-align: left;
 }
+
 .page_row img {
-	background-color: #aaa;
-	height: 10rem;
+	background-color: #000;
+	border: solid 1px #fff;
+	height: 10.2rem;
 	width: 15rem;
-	padding: 1rem;
+	padding: 0.25rem;
 	float: right;
 	top: 50%;
 	transform: translate(0, 0);
