@@ -19,7 +19,7 @@ ramuelcarl.barlas@wvsu.edu.ph
 https://github.com/BarlasRC/portfolio-barlas.git
 
 <b>Website Link:</b>
-- -
+https://barlas-portfolio-test.netlify.app/
 
 ## Awknowledgements
 These are the lists of various resources that is used to aid in the creation of this project.
