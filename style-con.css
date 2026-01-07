@@ -94,12 +94,14 @@
 .big_frame img {
 	height: 20rem;
 	width: 15rem;
+	border: solid 1px #000;
+	padding: 0.25rem;
 }
 .big_frame {
 	height: 20rem;
 	width: 15rem;
-	background-color: #eee;
-	padding: 1.5rem;
+	background-color: #dcdcdc;
+	padding: 2rem;
 }
 #desc {
 	width: auto;
